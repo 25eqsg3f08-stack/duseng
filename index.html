@@ -131,7 +131,7 @@
 // 兼容性检测：只在支持的浏览器中注册
 if ('serviceWorker' in navigator && 'Cache' in window) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/duseng/sw.js')
       .catch(err => console.log('SW注册失败:', err));
   });
 }
