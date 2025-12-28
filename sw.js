@@ -2,12 +2,11 @@
 const CACHE = 'site-cache-v1';
 // 已填入你提供的所有文件路径，可直接用
 const TO_CACHE = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/cover.jpg',
-  '/sw.js',
-  '/favicon.icon'
+  '/duseng/',
+  '/duseng/index.html',
+  '/duseng/styles.css',
+  '/duseng/cover.jpg',
+  '/duseng/sw.js', 'htps://25eqsg3f08-stack.github.io/favicon.ico'
 ];
 
 // 1. 安装：缓存所有指定文件（支持大尺寸的cover.jpg，无5MB限制）
